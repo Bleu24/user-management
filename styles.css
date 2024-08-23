@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 400px;
+    width:600px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+
+#loginInput {
+    display: flex;
+    gap: 10px;
+}
+
+.loginTitle {
+    font-size: 80px;
+    font-family: "JetBrains Mono", monospace;
+    font-style: normal;
+    animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+.text {
+    font-family: "JetBrains Mono", monospace;
+    font-style: normal;
+}
+
+input, button {
+    border-radius: 30px;
+    border-color: black;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: bisque;
+    transition: color 100s ease-out 1000s;
+
+}
+
+input {
+    padding-left: 10px;
+}
